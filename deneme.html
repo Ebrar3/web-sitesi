@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Deneme sayfası</title>
+    </head>
+    <body>
+        <div id="js">
+            <h1>Deneme sayfası</h1>
+            js öğrenelim...
+        </div>
+
+        <script>
+            console.log("ilk console gösterimi");
+            console.log("ikinci console gösterimi");
+            //açıklama satırı
+            alert("alerttt!");
+            document.write("bu bir yazıdır");
+            document.getElementById("js").innerHTML = "degisim"; //js öğrenelim... yazısını degisim olarak değiştirir.
+            //const, let, var değişken tanımlama
+                const pi = 3.14;
+                const name = "emin";
+                //const değişkeni değiştirilemez bir daha yoksa hata alırız. constante dan gelir.
+
+                let sayi = 5;
+                //let değişkeni değiştirilebilir. es6 dan sonra gelen değişken tanımlama yöntemi. letten gelir. string ve number tanımlamalarında kullanılır.
+                
+                var yas = 25;
+                //var değişkeni değiştirilebilir. eski js değişken tanımlama yöntemi. string ve number tanımlamalarında kullanılır.
+                
+                console.log("pi sayısı: ", pi);
+                console.log("isim: ", name);
+                console.log("sayi: ", sayi);    
+        </script>
+        <script src="deneme.js"></script>
+    </body>
+</html>
