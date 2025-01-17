@@ -1,0 +1,135 @@
+/* Genel stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin: 20px 0;
+}
+
+/* Menü stili */
+nav {
+    margin: 20px 0;
+    background-color: #61aede;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #971313;
+}
+
+/* Hakkımda sayfası */
+.about {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+.about a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about a:hover {
+    color: #5499ca;
+}
+
+/* İletişim formu tasarımı */
+#contactform {
+    width: 50%;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+.submit-button {
+    width: 50%;
+    margin-top: 20px;
+}
+
+
